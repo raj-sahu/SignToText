@@ -1,7 +1,7 @@
 # Hack the Hourglass 2020
 For the "Hack the Hourglass" hackathon
 
-# SigntoText - HealthCare and AI Project
+# SignToText - HealthCare and AI Project
 
 ## Table of Contents
 
@@ -29,3 +29,19 @@ SigntoText allows users to sign a word (full gesture) which is then translated i
 ### Built With
 * Machine Learning: This application is built with opencv. It segments the hand from the frame using masking techniques. The translation of the sign is done using a 
   deep neural network that uses a CNN which recognizes the features of the image. These features are then fed into an RNN which checks the differences between high level frames.
+
+### Dataset Used :
+The sign [database](http://facundoq.github.io/unlp/lsa64/) was created with the goal of producing a dictionary for LSA and training an automatic sign recognizer, includes 3200 videos where 10 non-expert subjects executed 5 repetitions of 64 different types of signs. Signs were selected among the most commonly used ones in the LSA lexicon, including both verbs and nouns.
+
+## Built With (Tech Stack)
+
+* [Keras](https://keras.io/) - The Machine Learning Api framework used for Training.
+
+* [MediaPipe](https://google.github.io/mediapipe/) - Used To  Extract Landmark Points 
+  and Features for tracking Hands.
+
+* [Google Collab](https://colab.research.google.com/) -  Provided Us A Platform to train Our Model .
+
+* [Python](https://www.python.org/) - The Programing Language Used to Drive various components of Our Project.
+
+* [OpenCV](https://docs.opencv.org/master/d0/de3/tutorial_py_intro.html) - The Library used for Image-Processing . 
