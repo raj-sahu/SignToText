@@ -26,6 +26,8 @@ Using this app, communication will be easier for both parties and people who hav
 ### What it Does
 SigntoText allows users to sign a word (full gesture) which is then translated into text. This allows people to communicate without having to fully learn sign language.
 
+![Demo](./demo)
+
 ### Built With
 * Machine Learning: This application is built with opencv. It segments the hand from the frame using masking techniques. The translation of the sign is done using a 
   deep neural network that uses a CNN which recognizes the features of the image. These features are then fed into an RNN which checks the differences between high level frames.

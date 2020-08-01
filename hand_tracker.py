@@ -225,7 +225,7 @@ class HandTracker():
 
 
 def handtracking():
-    # Initialize webcam capture
+
     capture = cv2.VideoCapture(0)
     record = False
     ConnectionColour = (76, 36, 133)
@@ -295,7 +295,7 @@ def handtracking():
         mask = cv2.cvtColor(mask, cv2.COLOR_GRAY2BGR)
 
         if record == False:
-            cv2.putText(mask, "Press Space To Start Recording or Q to quit",
+            cv2.putText(mask, "Press Space To Start Recording or Esc to quit",
                         (50, 50), 0, 1, (255, 255, 255), 2, cv2.LINE_AA)
 
         # Detect points on hand
@@ -320,15 +320,15 @@ def handtracking():
 
         cv2.namedWindow("SignToText", cv2.WINDOW_NORMAL)
 
-        horizontal_concat = np.concatenate((mask, frame), axis=1)
+        vertical_concat = np.concatenate((mask, frame), axis=0)
 
         cv2.resizeWindow('SignToText', 1000, 1000)
 
-        cv2.imshow('SignToText', horizontal_concat)
+        cv2.imshow('SignToText', vertical_concat)
 
         FrameExists, frame = capture.read()
         key = cv2.waitKey(1)
-        if key & 0xFF == ord('q'):
+        if key & 0xFF == 27:
             break
         if key % 256 == 32:
             record = True
@@ -338,9 +338,9 @@ def handtracking():
 
     capture.release()
     out.release()
-    cv2.destroyAllWindows()
 
 
 if __name__ == '__main__':
     print("EXECUTING >> HAND TRACKER")
     handtracking()
+    cv2.destroyAllWindows()
