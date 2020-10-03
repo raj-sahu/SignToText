@@ -13,7 +13,6 @@ For the "Hack the Hourglass" hackathon
 
 # Table of Contents
 
-- [SignToText - HealthCare and AI Project](#signtotext---healthcare-and-ai-project)
 - [Table of Contents](#table-of-contents)
   - [About The Project](#about-the-project)
   - [What it Does](#what-it-does)
