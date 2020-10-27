@@ -49,7 +49,7 @@ configobj==5.0.6
 confuse==1.3.0
 contextlib2==0.6.0.post1
 coursera-dl==0.11.5
-cryptography==2.9.2
+cryptography==3.2
 cufflinks==0.17.0
 cupshelpers==1.0
 cycler==0.10.0
