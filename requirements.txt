@@ -234,7 +234,7 @@ pythondialog==3.5.1
 pytoml==0.1.21
 pytz==2018.5
 PyWavelets==1.1.1
-PyYAML==5.3.1
+PyYAML==5.4
 pyzmq==19.0.0
 QtAwesome==0.6.0
 qtconsole==4.7.3
