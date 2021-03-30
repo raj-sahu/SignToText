@@ -209,7 +209,7 @@ pycurl==7.43.0.5
 pydeck==0.4.0b2
 pyflakes==2.2.0
 pyglet==1.5.0
-Pygments==2.6.1
+Pygments==2.7.4
 PyGObject==3.36.1
 pyLDAvis==2.1.2
 pylint==2.5.2
