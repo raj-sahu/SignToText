@@ -3,7 +3,14 @@ For the "Hack the Hourglass" hackathon
 
 # SignToText - HealthCare and AI Project
 
+![](https://img.shields.io/badge/DL-Deep%20Learning-black)
+![](https://img.shields.io/badge/Rnn-Recurrent%20Neural%20Network-yellow)
+![](https://img.shields.io/badge/Cnn-Convolutional%20Neural%20Network-lightgrey)
+![](https://img.shields.io/badge/Communication-Sign%20Language%20Translator-blue)
+
+
 ## Table of Contents
+
 
 * [About the Project](#about-the-project)
   * [What it Does](#what-it-does)
