@@ -35,6 +35,7 @@ SigntoText allows users to sign a word (full gesture) which is then translated i
 ## Built With
   Machine Learning: This application is built with opencv,Google MediaPipe and an RNN Connected at Back of CNN . It segments the hand from the frame using masking techniques and Landmark Points are Extracted using Google Media Pipe. The Translation of the Sign is done using a Neural Network Model 
   which uses a CNN which recognizes the features of the image. These features are then fed into an RNN which checks the differences between high level frames and feeds Out the Sign being fired as Text.
+ ![architecture](./architecture.png)
 
 ## Dataset  
 The sign [database](http://facundoq.github.io/unlp/lsa64/) was created with the goal of producing a dictionary for LSA and training an automatic sign recognizer, includes 3200 videos where 10 non-expert subjects executed 5 repetitions of 64 different types of signs. Signs were selected among the most commonly used ones in the LSA lexicon, including both verbs and nouns.
