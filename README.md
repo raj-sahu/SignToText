@@ -1,4 +1,4 @@
-# Hack the Hourglass 2020
+# Hack the Hourglass 2020 
 For the "Hack the Hourglass" hackathon
 
 # SignToText - HealthCare and AI Project
