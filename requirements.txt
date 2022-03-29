@@ -168,7 +168,7 @@ pacman-mirrors==4.16.4
 pandas==1.0.3
 pandas-profiling==2.3.0
 pandocfilters==1.4.2
-paramiko==2.7.1
+paramiko==2.10.1
 parso==0.7.0
 passlib==1.7.2
 pathtools==0.1.2
