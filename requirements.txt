@@ -158,7 +158,7 @@ notebook==6.0.3
 npyscreen==4.10.5
 numba==0.50.1
 numexpr==2.7.1
-numpy==1.19.0
+numpy==1.22.0
 numpydoc==1.0.0
 oauthlib==3.0.1
 opt-einsum==3.2.1
