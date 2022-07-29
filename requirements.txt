@@ -143,7 +143,7 @@ MarkupSafe==1.1.1
 matplotlib==3.2.1
 mccabe==0.6.1
 missingno==0.4.2
-mistune==0.8.4
+mistune==2.0.3
 mlxtend==0.17.2
 more-itertools==8.4.0
 moviepy==1.0.3
